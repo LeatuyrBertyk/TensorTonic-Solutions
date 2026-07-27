@@ -11,5 +11,5 @@ def f1_micro(y_true, y_pred) -> float:
     if tp == n:
         return 1.0
 
-    return 2*tp/(2*tp + 2*(n - tp))
+    return tp/n
     
